@@ -4,30 +4,30 @@ CREATE TABLE customer(
   customer_name VARCHAR(30)
 );
 -- insert some values
-INSERT INTO customer VALUES (1, 'Ryan');
-INSERT INTO customer VALUES (2, 'Joanna');
-INSERT INTO customer VALUES (3, 'Jack');
-INSERT INTO customer VALUES (4, 'rob');
-INSERT INTO customer VALUES (5, 'mack');
-INSERT INTO customer VALUES (6, 'tom');
-INSERT INTO customer VALUES (7, 'henry');
-INSERT INTO customer VALUES (8, 'Jacob');
+INSERT INTO customer VALUES (1, 'John');
+INSERT INTO customer VALUES (2, 'Smith');
+INSERT INTO customer VALUES (3, 'Ricky');
+INSERT INTO customer VALUES (4, 'Walsh');
+INSERT INTO customer VALUES (5, 'stephen');
+INSERT INTO customer VALUES (6, 'fleming');
+INSERT INTO customer VALUES (7, 'thompson');
+INSERT INTO customer VALUES (8, 'David');
 -- fetch some values
 create TABLE product(
  product_id INTEGER primary key,
  product_name varchar(30),
  product_price INTEGER
 );
-INSERT INTO product VALUES(1,'tv',19000);
+INSERT INTO product VALUES(1,'tele vision',19000);
 INSERT INTO product VALUES(2,'dvd',3600);
 INSERT INTO product VALUES(3,'washing machine',7600);
 INSERT INTO product VALUES(4,'computer',35900);
 INSERT INTO product VALUES(5,'ipod',3210);
-INSERT INTO product VALUES(6,'panasonic',2100);
+INSERT INTO product VALUES(6,'panasonic phone',2100);
 INSERT INTO product VALUES(7,'chair',360);
 INSERT INTO product VALUES(8,'table',490);
-INSERT INTO product VALUES(9,'sound',12050);
-INSERT INTO product VALUES(10,'home',19000);
+INSERT INTO product VALUES(9,'sound system',12050);
+INSERT INTO product VALUES(10,'home theater',19000);
 
 CREATE TABLE orders(
 order_id INTEGER primary key,
